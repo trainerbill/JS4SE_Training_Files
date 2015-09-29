@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>
+
+<body>
+
+<div class="container">
+
+    <div id="test">
+        <h1>My Test Store</h1>
+    </div>
+
+    <hr/>
+
+    <div class="row product">
+        <div class="col-md-4">
+            <h3>Toy Story Woody T-Shirt</h3>
+            <p>
+                <a id="t1" >
+                    <img class="paypal-button-hidden" src="https://www.paypalobjects.com/de_DE/i/btn/btn_xpressCheckout.gif" alt="Check out with PayPal" />
+                </a>
+            </p>
+        </div>
+    </div>
+
+    
+</div>
+
+<form id="checkout" method="post" action="/checkout">
+  <div id="payment-form"></div>
+  <input type="submit" value="Pay $10">
+</form>
+
+</body>
+</html>
+
+
